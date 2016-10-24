@@ -7,5 +7,5 @@ script:
 - 'git clone https://github.com/ansediao/zhan5u.git'
 - 'dir'
 - 'cd zhan5u'
-- 'git ftp init --user ${user} --passwd ${password} ftp://139.129.175.7/htdocs'
+
 - 'git ftp push --user ${user} --passwd ${password} ftp://139.129.175.7/htdocs'
