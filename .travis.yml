@@ -1,0 +1,10 @@
+install:
+- 'git clone https://github.com/git-ftp/git-ftp.git'
+- 'cd git-ftp'
+- 'git checkout 1.1.0'
+- 'sudo make install'
+script:
+- 'git clone https://github.com/ansediao/zhan5u.git'
+- 'dir'
+- 'cd zhan5u'
+- 'git ftp push --user ${user} --passwd ${password} ftp://139.129.175.7/htdocs'
