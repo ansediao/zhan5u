@@ -7,7 +7,6 @@ script:
 - 'git clone https://github.com/ansediao/zhan5u.git'
 - 'dir'
 - 'cd zhan5u'
-
 - 'git ftp push --user ${user} --passwd ${password} ftp://139.129.175.7/htdocs'
 
 
@@ -15,5 +14,4 @@ script:
 - 'git clone https://github.com/ansediao/zhan5u_seo.git'
 - 'dir'
 - 'cd zhan5u_seo'
-
-- 'git ftp push --user ${user} --passwd ${password} ftp://139.129.175.7/htdocs/wordpress/seo/'
+- 'git ftp init --user ${user} --passwd ${password} ftp://139.129.175.7/htdocs/wordpress/seo/'
